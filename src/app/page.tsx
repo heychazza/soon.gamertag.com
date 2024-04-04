@@ -90,7 +90,7 @@ export default function Home() {
 
           <div className="flex items-center my-3 lg:my-5 flex-col md:flex-row">
             <a
-                href="https://gamertag.com/?nocache"
+                href="https://dan.com/buy-domain/gamertag.com"
                 className="rounded-full border-2 not-prose text-black text-sm tracking-widest uppercase font-bold inline-flex items-center py-3 m-2 px-6 transition-all ease-in-out duration-200 hover:shadow-lg hover:bg-gray-50"
             >
               <span>Make an Offer</span>
