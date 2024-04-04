@@ -69,6 +69,8 @@ export default function Home() {
         </div>
 
         <div className="grid light gap-4 lg:w-[1024px] gap-y-0 lg:grid-cols-2 mx-auto">
+          <Tweet id="1699459981651976678"/>
+          <Tweet id="1550964414764896256"/>
           <Tweet id="1766141983536329015"/>
           <Tweet id="1768683579507192246"/>
           <Tweet id="1775093475211358495"/>
@@ -77,10 +79,8 @@ export default function Home() {
           <Tweet id="967206188797509632"/>
           <Tweet id="1746653757637554197"/>
           <Tweet id="1768277641323250111"/>
-          <Tweet id="1550964414764896256"/>
           <Tweet id="1769453771627671646"/>
           <Tweet id="1773669427805921442"/>
-          <Tweet id="1699459981651976678"/>
         </div>
 
         <div className="px-8 lg:px-0 prose">
