@@ -17,7 +17,7 @@ export default function Home() {
         <div className="px-8 lg:px-0 prose">
           <Image
               src="/logo.png"
-              alt="Logo"
+              alt="Gamertag's Logo"
               width={350}
               height={197}
               priority={true}
@@ -29,9 +29,9 @@ export default function Home() {
           </h1>
           <p>
             A "gamertag" is more than just a username. It's a badge of honor, a digital persona that defines who you are
-            in the gaming world. And now, you have the opportunity to own the ultimate gamertag domain: Gamertag.com.
+            in the gaming world. And now, you have the opportunity to own one of the most sought after gaming domaims: Gamertag.com.
           </p>
-
+          
           <h2>Why Gamertag.com?</h2>
           <ul>
             <li><strong>Brand Recognition</strong>: From Xbox to Razer, the term "gamertag" is synonymous with gaming
@@ -65,7 +65,7 @@ export default function Home() {
         </div>
 
         <div className="px-8 lg:px-0 prose">
-          <h2>Actively Used Daily by the Industry Leaders</h2>
+          <h2>Actively Used Daily by Industry Leaders</h2>
         </div>
 
         <div className="grid gap-4 lg:w-[1024px] gap-y-0 lg:grid-cols-2 mx-auto">
@@ -76,10 +76,11 @@ export default function Home() {
           <Tweet id="1775093475211358495"/>
           <Tweet id="1769453771627671646"/>
           <Tweet id="1746653757637554197"/>
-          <Tweet id="1749649552708157642"/>
           <Tweet id="1699459981651976678"/>
           <Tweet id="1774794367414182314"/>
           <Tweet id="967206188797509632"/>
+          <Tweet id="1133821986617085952"/>
+          <Tweet id="1550964414764896256"/>
         </div>
 
         <div className="px-8 lg:px-0 prose">
