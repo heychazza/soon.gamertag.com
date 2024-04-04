@@ -9,12 +9,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Welcome to Play MC",
+  title: "Gamertag.com - The Ultimate Gaming Domain",
   description:
-    "The Vanilla Minecraft Experience - Coming Soon! Stay tuned for updates.",
+    "Gamertag.com is one of the most iconic gaming domains. Own the brand that speaks to millions of gamers worldwide.",
   themeColor: "#111C2C",
   alternates: {
-    canonical: "https://play.mc",
+    canonical: "https://gamertag.com",
   }
 };
 
