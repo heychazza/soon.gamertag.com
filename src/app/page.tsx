@@ -68,7 +68,7 @@ export default function Home() {
           <h2>Actively Used Daily by Industry Leaders</h2>
         </div>
 
-        <div className="grid gap-4 lg:w-[1024px] gap-y-0 lg:grid-cols-2 mx-auto">
+        <div className="grid light gap-4 lg:w-[1024px] gap-y-0 lg:grid-cols-2 mx-auto">
           <Tweet id="1766141983536329015"/>
           <Tweet id="1773669427805921442"/>
           <Tweet id="1768277641323250111"/>
