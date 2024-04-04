@@ -77,7 +77,9 @@ export default function Home() {
           <Tweet id="1769453771627671646"/>
           <Tweet id="1746653757637554197"/>
           <Tweet id="1749649552708157642"/>
-          <Tweet id="1749649552708157642"/>
+          <Tweet id="1699459981651976678"/>
+          <Tweet id="1774794367414182314"/>
+          <Tweet id="967206188797509632"/>
         </div>
 
         <div className="px-8 lg:px-0 prose">
