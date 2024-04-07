@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <div className="relative px-2 md:px-10 mx-auto bg-gray-50/50">
-      <div className="relative py-8 px-10">
+      <div className="relative py-8 px-10 w-2/3">
 
         <div className="px-8 lg:px-0 prose prose-a:text-sky-500">
           <Image
@@ -29,9 +29,16 @@ export default function Home() {
           </h1>
           <p>
             A "gamertag" is more than just a username. It's a badge of honor, a digital persona that defines who you are
-            in the gaming world. And now, you have the opportunity to own one of the most sought after gaming domaims:
+            in the gaming world. And now, you have the opportunity to own one of the most sought after gaming domains:
             Gamertag.com.
           </p>
+
+          <div className="flex items-center my-3 flex-col md:flex-row">
+            <a href="https://dan.com/buy-domain/gamertag.com"
+               className="rounded-full border-2 bg-sky-400 not-prose text-black text-sm tracking-widest uppercase font-bold inline-flex items-center py-3 m-2 px-6 transition-all ease-in-out duration-200 hover:shadow-lg hover:bg-sky-400/75">
+              <span>Make an Offer Now</span>
+            </a>
+          </div>
 
           <h2>Why Gamertag.com?</h2>
           <ul>
@@ -108,10 +115,7 @@ export default function Home() {
           <p>This domain is in no way associated with Xbox or Microsoft.</p>
 
           <div className="flex items-center my-3 lg:my-5 flex-col md:flex-row">
-            <a
-                href="https://dan.com/buy-domain/gamertag.com"
-                className="rounded-full border-2 not-prose text-black text-sm tracking-widest uppercase font-bold inline-flex items-center py-3 m-2 px-6 transition-all ease-in-out duration-200 hover:shadow-lg hover:bg-gray-50"
-            >
+            <a href="https://dan.com/buy-domain/gamertag.com" className="rounded-full border-2 not-prose text-black text-sm tracking-widest uppercase font-bold inline-flex items-center py-3 m-2 px-6 transition-all ease-in-out duration-200 hover:shadow-lg hover:bg-gray-50">
               <span>Make an Offer</span>
             </a>
           </div>
