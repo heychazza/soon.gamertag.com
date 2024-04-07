@@ -3,6 +3,7 @@ import "./css/style.css";
 import { Inter, Inter_Tight } from "next/font/google";
 import Theme from "./theme-provider";
 import {Metadata} from "next";
+import Fathom from "@/components/fathom";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -50,14 +51,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       {/* suppressHydrationWarning: https://github.com/vercel/next.js/issues/44343 */}
-      <body
-        className={`${inter.variable} ${inter_tight.variable} font-inter antialiased bg-indigo-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200 tracking-tight`}
-      >
-        <Theme>
-          <div className="relative flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
-            {children}
-          </div>
-        </Theme>
+      <body className={`${inter.variable} ${inter_tight.variable} font-inter antialiased bg-indigo-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200 tracking-tight`}>
+        <Fathom/>
+        <div className="relative flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
+          {children}
+        </div>
       </body>
     </html>
   );
