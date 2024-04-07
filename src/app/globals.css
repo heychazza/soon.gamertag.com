@@ -7,3 +7,11 @@
     height: -webkit-fill-available;
   }
 }
+
+[class*="tweet-media_rounded"], [class*="quoted-tweet-container"] {
+  display: none !important;
+}
+
+.prose {
+  @apply max-w-none;
+}

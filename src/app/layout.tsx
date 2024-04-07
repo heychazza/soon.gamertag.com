@@ -15,7 +15,21 @@ export const metadata: Metadata = {
   themeColor: "#111C2C",
   alternates: {
     canonical: "https://gamertag.com",
-  }
+  },
+  icons: [
+    {
+      rel: 'icon',
+      type: 'image/x-icon',
+      url: '/icon-light.png',
+      media: '(prefers-color-scheme: light)',
+    },
+    {
+      rel: 'icon',
+      type: 'image/png',
+      url: '/icon-dark.png',
+      media: '(prefers-color-scheme: dark)',
+    },
+  ],
 };
 
 export default function RootLayout({

@@ -11,10 +11,10 @@ export default function Home() {
   ]
 
   return (
-    <div className="relative flex items-center bg-gray-50/50 justify-center">
+    <div className="relative px-2 md:px-10 mx-auto bg-gray-50/50">
       <div className="relative py-8 px-10">
 
-        <div className="px-8 lg:px-0 prose">
+        <div className="px-8 lg:px-0 prose prose-a:text-sky-500">
           <Image
               src="/logo.png"
               alt="Gamertag's Logo"
@@ -29,9 +29,10 @@ export default function Home() {
           </h1>
           <p>
             A "gamertag" is more than just a username. It's a badge of honor, a digital persona that defines who you are
-            in the gaming world. And now, you have the opportunity to own one of the most sought after gaming domaims: Gamertag.com.
+            in the gaming world. And now, you have the opportunity to own one of the most sought after gaming domaims:
+            Gamertag.com.
           </p>
-          
+
           <h2>Why Gamertag.com?</h2>
           <ul>
             <li><strong>Brand Recognition</strong>: From Xbox to Razer, the term "gamertag" is synonymous with gaming
@@ -46,6 +47,19 @@ export default function Home() {
               our collection
               of tweets from industry leaders who recognize the value of this premium domain.
             </li>
+            <li><strong>SquadHelp Approved</strong>: This domain has a rating of 9.9 out of 10 on <a
+                href="https://www.squadhelp.com/domain-insights/Gamertag.com#domainresults">SquadHelp Domain
+              Insights</a> due to it being a short, aged domain (21 years old) that is registered in many tlds.
+            </li>
+          </ul>
+
+          <h2>Example Keywords Searched</h2>
+          <ul>
+            <li><strong>"gamertag generator"</strong>: Searched over 22,200 times per month.</li>
+            <li><strong>"xbox gamertag"</strong>: Searched over 6,600 times per month.</li>
+            <li><strong>"change xbox gamertag"</strong>: Searched over 5,400 times per month.</li>
+            <li><strong>"funny gamertags"</strong>: Searched over 5,400 times per month.</li>
+            <li><strong>"gamertag ideas"</strong>: Searched over 5,400 times per month.</li>
           </ul>
         </div>
 
@@ -68,7 +82,7 @@ export default function Home() {
           <h2>Actively Used Daily by Industry Leaders</h2>
         </div>
 
-        <div className="grid light gap-4 lg:w-[1024px] gap-y-0 lg:grid-cols-2 mx-auto">
+        <div className="grid max-w-none sm:grid-cols-2 md:grid-cols-3 gap-8 gap-y-0">
           <Tweet id="1699459981651976678"/>
           <Tweet id="1550964414764896256"/>
           <Tweet id="1766141983536329015"/>
@@ -90,6 +104,8 @@ export default function Home() {
 
           <h2>Seize the Moment. Own the Name.</h2>
           <p>Unlock the potential of Gamertag.com today.</p>
+
+          <p>This domain is in no way associated with Xbox or Microsoft.</p>
 
           <div className="flex items-center my-3 lg:my-5 flex-col md:flex-row">
             <a
