@@ -67,11 +67,11 @@ export default function Home() {
 
             <div className="px-8 lg:px-0 prose">
               <h2 className="text-3xl mb-2 font-bold">Your Gateway to Gaming Greatness</h2>
-              <p className="text-white text-lg mb-12">Don't settle for a mediocre online identity. Claim your spot at the forefront of gaming culture with
+              <p className="dark:text-white text-lg mb-12">Don't settle for a mediocre online identity. Claim your spot at the forefront of gaming culture with
                 Gamertag.com. Take the first step towards dominance in the digital arena.</p>
 
               <h2 className="text-3xl mb-2 font-bold">Seize the Moment. Own the Name.</h2>
-              <p className="text-white text-lg mb-12">Unlock the potential of Gamertag.com today.</p>
+              <p className="dark:text-white text-lg mb-12">Unlock the potential of Gamertag.com today.</p>
 
               <SubscribeForm />
             </div>
