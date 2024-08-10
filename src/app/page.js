@@ -3,7 +3,10 @@ import Logo from "@/components/Logo";
 
 export const metadata = {
     title: 'Gamertag.com – Coming soon!',
-    description: 'Gamertag is a single hub for all your gaming profiles, making it easy for friends to find you, follow your stats, and connect instantly.',
+    description: 'Gamertag is a single hub for all your gaming profiles, making it easy for friends to find you, follow your stats, and connect instantly.',    themeColor: "#111C2C",
+    alternates: {
+        canonical: "https://gamertag.com",
+    },
     icons: {
         icon: [
             {

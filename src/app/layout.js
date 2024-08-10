@@ -1,5 +1,6 @@
 import "./globals.css";
 import localFont from 'next/font/local'
+import Analytics from "@/components/Analytics";
 
 export const metadata = {
   title: "Gamertag",
@@ -35,6 +36,7 @@ export const protoMono = localFont({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Analytics/>
       <body className={protoMono.className}>{children}</body>
     </html>
   );
