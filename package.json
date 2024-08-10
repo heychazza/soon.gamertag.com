@@ -1,5 +1,5 @@
 {
-  "name": "waitlist-next",
+  "name": "soon.gamertag.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,22 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.17",
-    "@types/node": "^20.10.4",
-    "@types/react": "^18.2.42",
-    "@types/react-dom": "^18.2.17",
-    "fathom-client": "^3.6.0",
-    "next": "^14.0.3",
-    "next-themes": "^0.2.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-tweet": "^3.2.0",
-    "typescript": "^5.3.3"
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.5"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.7",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.32",
-    "tailwindcss": "^3.3.6"
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
